@@ -20,14 +20,17 @@ export const Header = () => {
       <nav className="place-self-end">
         <ul className="flex gap-4">
           <li>
-            <button>
+            <a
+              href="https://www.linkedin.com/in/guilherme-nunes-a666a514b/"
+              target="_blank"
+            >
               <LinkedinIcon className="fill-amber-100 transition-colors hover:fill-amber-200"></LinkedinIcon>
-            </button>
+            </a>
           </li>
           <li>
-            <button>
+            <a href="https://twitter.com/gnunesdev" target="_blank">
               <Twitter className="fill-amber-100 transition-colors hover:fill-amber-200"></Twitter>
-            </button>
+            </a>
           </li>
         </ul>
       </nav>
