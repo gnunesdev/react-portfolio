@@ -13,6 +13,6 @@
 
 @layer utilities {
   .slide-container {
-    animation: 10s slide infinite linear;
+    animation: 15s slide infinite linear;
   }
 }
