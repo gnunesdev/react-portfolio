@@ -2,7 +2,8 @@ name: Test locally
 run-name: ${{ github.actor }} - Testing repository 🚀
 on:
   push:
-    branches: - 'feature/*'
+    branches:
+      - "feature/*"
 jobs:
   unit-tests:
     runs-on: macos-latest
@@ -10,7 +11,7 @@ jobs:
       - run: echo "🧑🏻‍💻 initializing tests on ${{ github.ref }} branch."
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
       - uses: actions/checkout@v3
       - name: Run tests
         run: npm run test
