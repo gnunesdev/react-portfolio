@@ -23,12 +23,17 @@ export const Header = () => {
             <a
               href="https://www.linkedin.com/in/guilherme-nunes-a666a514b/"
               target="_blank"
+              aria-label="Linkedin profile"
             >
               <LinkedinIcon className="fill-amber-100 transition-colors hover:fill-amber-200"></LinkedinIcon>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/gnunesdev" target="_blank">
+            <a
+              href="https://twitter.com/gnunesdev"
+              target="_blank"
+              aria-label="Twitter profile"
+            >
               <Twitter className="fill-amber-100 transition-colors hover:fill-amber-200"></Twitter>
             </a>
           </li>
