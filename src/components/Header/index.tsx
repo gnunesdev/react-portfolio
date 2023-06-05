@@ -13,6 +13,9 @@ export const Header = () => {
             <a href="">Trabalhos</a>
           </li>
           <li className="transition-colors hover:text-amber-200">
+            <a href="">Blog</a>
+          </li>
+          <li className="transition-colors hover:text-amber-200">
             <a href="">Contato</a>
           </li>
         </ul>
