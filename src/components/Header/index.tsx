@@ -3,7 +3,10 @@ import { LinkedinIcon, Twitter } from "lucide-react";
 export const Header = () => {
   return (
     <header className="grid grid-cols-3 px-8 py-4">
-      <h1 className="bold text-2xl">gnunes.dev</h1>
+      <div>
+        <h1 className="bold text-2xl">gnunes.dev</h1>
+        <span className="text-sm">portifólio em construção 🚧</span>
+      </div>
       <nav className="place-self-center">
         <ul className="flex gap-6">
           <li className="transition-colors hover:text-amber-200">
