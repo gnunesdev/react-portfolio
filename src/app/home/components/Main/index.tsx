@@ -16,7 +16,7 @@ export const Main = () => {
       <div>
         <Image
           className="h-96 w-96 rounded-3xl object-cover object-bottom"
-          src="/profile-picture.jpg"
+          src="/main-profile-picture.jpg"
           width={2268}
           height={3024}
           alt="Picture of Guilherme Nunes"
