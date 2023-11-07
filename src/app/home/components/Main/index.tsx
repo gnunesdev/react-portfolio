@@ -1,7 +1,7 @@
 import { Button } from "~/components/Button";
 
 import Image from "next/image";
-import profilePicture from "./../../../../../public/profile-picture.jpg";
+import profilePicture from "/public/profile-picture.jpg";
 
 export const Main = () => {
   return (
