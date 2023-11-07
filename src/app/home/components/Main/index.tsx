@@ -1,7 +1,6 @@
 import { Button } from "~/components/Button";
 
 import Image from "next/image";
-import profilePicture from "/public/profile-picture.jpg";
 
 export const Main = () => {
   return (
@@ -17,7 +16,7 @@ export const Main = () => {
       <div>
         <Image
           className="h-96 w-96 rounded-3xl object-cover object-bottom"
-          src={profilePicture}
+          src="/profile-picture.jpg"
           alt="Picture of Guilherme Nunes"
         />
       </div>
